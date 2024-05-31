@@ -13,11 +13,7 @@ html {
 
 body {
     background-color: rgb(240, 255, 248);
-    /* height: 100vh; */
     width: 100vw;
-    /* overflow-x: hidden;
-    overflow-y: hidden; */
-    /* position: relative; */
 }
 
 header {
@@ -94,6 +90,14 @@ header nav .links .link-wrapper:hover {
     .made-tech-main-logo {
         bottom: 0px;
         left: 0px;
+    }
+}
+
+@media only screen and (min-width: 760px) {   
+    .profile-pic-wrapper img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
     }
 }
 
